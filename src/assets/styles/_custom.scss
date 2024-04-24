@@ -1,0 +1,26 @@
+// MOBIL
+  @media (min-width: 576px) { 
+    .nav-mobil{
+     display: none;
+     background-color: red;
+    }
+   }
+
+   // PAGE DETAIL
+   
+   // STEP
+   .container-step{
+     display: flex;
+     flex-direction: row;
+     border: 1px solid gainsboro;
+   }
+   .step__titre{
+    font-size: 3rem;
+   }
+   .step__content{
+    font-size: 1rem;
+   }
+   .container-content{
+    display: flex;
+    flex-direction: row;
+   }

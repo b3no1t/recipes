@@ -1,0 +1,26 @@
+@media (width >= 576px) {
+  .nav-mobil {
+    background-color: red;
+    display: none;
+  }
+}
+
+.container-step {
+  border: 1px solid #dcdcdc;
+  flex-direction: row;
+  display: flex;
+}
+
+.step__titre {
+  font-size: 3rem;
+}
+
+.step__content {
+  font-size: 1rem;
+}
+
+.container-content {
+  flex-direction: row;
+  display: flex;
+}
+/*# sourceMappingURL=index.41d2816d.css.map */
