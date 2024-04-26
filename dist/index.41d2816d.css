@@ -1,8 +1,24 @@
+:root {
+  --color-primary: #e2edbf;
+  --color-secondary: salmon;
+  --bgcolor-primary: #4e495f;
+  --bgcolor-secondary: #ffd4a3;
+}
+
 @media (width >= 576px) {
   .nav-mobil {
     background-color: red;
     display: none;
   }
+}
+
+body.body {
+  background-image: url("bg-body.9ca581db.jpeg");
+  background-size: cover;
+}
+
+.container {
+  background-color: #f1f2f3;
 }
 
 .container-step {
@@ -22,5 +38,18 @@
 .container-content {
   flex-direction: row;
   display: flex;
+}
+
+.sharelink {
+  align-items: center;
+  display: flex;
+}
+
+.sharelink:hover svg {
+  fill: #00f;
+}
+
+.sharelink:hover .social-name {
+  color: #00f;
 }
 /*# sourceMappingURL=index.41d2816d.css.map */
